@@ -6,8 +6,6 @@
     <head>
         <title>News Today</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <%--<link rel="stylesheet" media="screen,projection" type="text/css" href="<c:url value='/css/main.css'/>" />
-        <link rel="stylesheet" media="screen,projection" type="text/css" href="<c:url value='/css/skin.css'/>" />--%>
         <link href="<c:url value='/resources/css/main.css' />" rel="stylesheet"></link>
         <link href="<c:url value='/resources/css/skin.css' />" rel="stylesheet"></link>
         <script type="text/javascript" src="<c:url value='/resources/javascript/cufon-yui.js' />"></script>
@@ -31,3 +29,5 @@
                     <li><a href="<c:url value='/subpage' />">SubPage</a></li>
                 </ul>
             </div>
+            <div id="section" class="box">
+                <div id="content">
